@@ -13,14 +13,14 @@ This project is intended to analyse the data of a Nigerian Car sales business, A
 - Dive deep into our sales performance over the course of 2020. identify trends in sales volume, uncover any seasonality effects, and pinpoint peak sales periods.
 
 ### Steps followed
-Step 1 : Load data into Microsoft Excel Power Query, dataset is an Excel file. There are 1491 Rows and 6 Columns of data in the dataset.
+**Step 1** : Load data into Microsoft Excel Power Query, dataset is an Excel file. There are 1491 Rows and 6 Columns of data in the dataset.
 
 **Original Dataset for Analysis**
 
 ![image](https://github.com/user-attachments/assets/da0dd31b-a80f-4f04-ae77-2b37236e6335)
 
 
-Step 2 : Cleaned the data by:
+**Step 2** : Cleaned the data by:
 - Trimming leading and trailing spaces.
 - Replaced inconsistent data.
 - Replaced outlier data with the median value.
@@ -30,7 +30,7 @@ Step 2 : Cleaned the data by:
 - Created a calendar table with the date column to extract the Year, Month, Quarter, Day columns and removed duplicates to create relationship between the two tables.
 
 
-Step 3 : Closed and Loaded the cleaned data into Excel for Analysis
+**Step 3** : Closed and Loaded the cleaned data into Excel for Analysis
 
 **Cleaned Dataset for Analysis**
 
@@ -40,12 +40,12 @@ Step 3 : Closed and Loaded the cleaned data into Excel for Analysis
 
 ![image](https://github.com/user-attachments/assets/0135e9b8-68dd-4b36-94e7-bceaf3ef3c7c)
 
-Step 4 : Loaded both tables into Power Pivot and created an entity relationship using the date column for ease of analysis.
+**Step 4** : Loaded both tables into Power Pivot and created an entity relationship using the date column for ease of analysis.
 
 ![image](https://github.com/user-attachments/assets/4996b35f-48d0-43c9-a9bb-094bf32feccb)
 
 
-Step 5 : Created multiple DAX Formulas; pivot tables to analyse the data and gain actionable insights. This pivots and insights data were extracted to create dashboard.
+**Step 5** : Created multiple DAX Formulas; pivot tables to analyse the data and gain actionable insights. This pivots and insights data were extracted to create dashboard.
 
-Step 6 : [View dashboard, insights and recommendation](https://github.com/olubadero/Autostyle-Sales-Performance-Analysis/blob/main/insights.md)
+**Step 6** : [View dashboard, insights and recommendation](https://github.com/olubadero/Autostyle-Sales-Performance-Analysis/blob/main/insights.md)
 
